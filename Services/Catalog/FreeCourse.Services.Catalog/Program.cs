@@ -8,16 +8,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddScoped<ICategoryService, CategoryService>(); //ICategoryService'i CategoryService ile eşleştiriyoruz.
+builder.Services.AddScoped<ICourseService, CourseService>(); //ICourseService'i CourseService ile eşleştiriyoruz.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly()); //AutoMapper'ı projeye dahil ediyoruz.
-builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettings")); //appsettings.json içerisindeki DatabaseSettings bölümünü alıyoruz.
-builder.Services.AddSingleton<IDatabaseSettings>(sp => 
+builder.Services.AddSingleton<IDatabaseSettings, DatabaseSettings>(sp =>
 {
- return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value; //DatabaseSettings'i singleton olarak kullanacağımızı belirtiyoruz.
+    return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value; //DatabaseSettings'i singleton olarak kullanacağımızı belirtiyoruz.
 });
+builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettings")); //appsettings.json içerisindeki DatabaseSettings bölümünü alıyoruz.
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

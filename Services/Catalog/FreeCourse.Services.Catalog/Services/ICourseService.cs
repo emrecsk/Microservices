@@ -3,7 +3,7 @@ using FreeCourse.Shared.DTOs;
 
 namespace FreeCourse.Services.Catalog.Services
 {
-    internal interface ICourseService
+    public interface ICourseService
     {
         Task<Response<List<CourseDTO>>> GetCoursesAllAsync();
         Task<Response<CourseDTO>> GetCourseByIdAsync(string id);
