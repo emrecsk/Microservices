@@ -1,6 +1,6 @@
 ﻿namespace FreeCourse.Services.Catalog.DTOs
 {
-    internal class CourseDTO
+    public class CourseDTO
     {
         public CourseDTO(string id, string name, decimal price, string picture, string description, string userId, DateTime createdTime, string categoryId, CategoryDTO category, FeatureDTO feature)
         {

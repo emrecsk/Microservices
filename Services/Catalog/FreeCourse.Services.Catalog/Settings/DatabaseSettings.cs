@@ -9,6 +9,10 @@
             ConnectionString = connectionString;
             DatabaseName = databaseName;
         }
+        public DatabaseSettings() //Cannot dynamically create an instance of type 'FreeCourse.Services.Catalog.Settings.DatabaseSettings'. Reason: No parameterless constructor defined. That is why we need this constructor.
+        {
+
+        }
 
         public string CourseCollectionName { get; set; }
         public string CategoryCollectionName { get; set; }

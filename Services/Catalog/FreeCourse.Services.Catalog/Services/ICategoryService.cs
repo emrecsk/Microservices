@@ -3,10 +3,10 @@ using FreeCourse.Shared.DTOs;
 
 namespace FreeCourse.Services.Catalog.Services
 {
-    internal interface ICategoryService
+    public interface ICategoryService
     {
         Task<Response<List<CategoryDTO>>> GetAllAsync();
-        Task<Response<CategoryDTO>> CategoryCreationAsync(CategoryDTO categoryDTO);
+        Task<Response<CategoryDTO>> CategoryCreationAsync(CategoryCreateDTO categoryDTO);
         Task<Response<CategoryDTO>> GetbyIdAsync(string id);
     }
 }
