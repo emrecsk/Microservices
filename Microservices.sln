@@ -36,7 +36,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.services.basket"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{F1D7E9EB-DE05-4C85-BF4D-8D9C095C4808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.services.discount", "Services\Discount\FreeCourse.services.discount\FreeCourse.services.discount.csproj", "{BB56EA1B-EA90-4A2D-8279-ECA5245DA5E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Discount", "Services\Discount\FreeCourse.Services.Discount\FreeCourse.Services.Discount.csproj", "{5B50A4F9-FAF4-403D-8A60-29E3F6851613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,10 +68,10 @@ Global
 		{D52B7F23-EE8B-4EFE-818C-7D024C795661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D52B7F23-EE8B-4EFE-818C-7D024C795661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D52B7F23-EE8B-4EFE-818C-7D024C795661}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB56EA1B-EA90-4A2D-8279-ECA5245DA5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB56EA1B-EA90-4A2D-8279-ECA5245DA5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB56EA1B-EA90-4A2D-8279-ECA5245DA5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB56EA1B-EA90-4A2D-8279-ECA5245DA5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B50A4F9-FAF4-403D-8A60-29E3F6851613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B50A4F9-FAF4-403D-8A60-29E3F6851613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B50A4F9-FAF4-403D-8A60-29E3F6851613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B50A4F9-FAF4-403D-8A60-29E3F6851613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,7 +87,7 @@ Global
 		{FA89E650-0781-4FE4-85AE-ECB77458F512} = {47651052-1C4B-46E2-A937-E41B8DDEA17C}
 		{D52B7F23-EE8B-4EFE-818C-7D024C795661} = {FA89E650-0781-4FE4-85AE-ECB77458F512}
 		{F1D7E9EB-DE05-4C85-BF4D-8D9C095C4808} = {47651052-1C4B-46E2-A937-E41B8DDEA17C}
-		{BB56EA1B-EA90-4A2D-8279-ECA5245DA5E4} = {F1D7E9EB-DE05-4C85-BF4D-8D9C095C4808}
+		{5B50A4F9-FAF4-403D-8A60-29E3F6851613} = {F1D7E9EB-DE05-4C85-BF4D-8D9C095C4808}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9C27A4D-9820-4498-9717-7A8CEB03C3A9}
