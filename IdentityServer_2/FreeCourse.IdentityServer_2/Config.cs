@@ -19,6 +19,7 @@ namespace FreeCourse.IdentityServer_2
                 new ApiResource("photo_stock"){Scopes={"photo_stock_fullpermission"} },
                 new ApiResource("basket"){Scopes={"basket_fullpermission"} },
                 new ApiResource("discount"){Scopes={ "discount_fullpermission" } },
+                new ApiResource("order"){Scopes={ "order_fullpermission" } },
                 new ApiResource(IdentityServerConstants.LocalApi.ScopeName) //this is for identity server
             };
         public static IEnumerable<IdentityResource> IdentityResources =>
@@ -37,6 +38,7 @@ namespace FreeCourse.IdentityServer_2
                 new ApiScope("photo_stock_fullpermission","Full access for photo stock api"),
                 new ApiScope("basket_fullpermission","Full access for basket api"),
                 new ApiScope("discount_fullpermission","Full access for discount api"),
+                new ApiScope("order_fullpermission","Full access for order api"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName) //this is for identity server
             };
 
@@ -66,7 +68,8 @@ namespace FreeCourse.IdentityServer_2
                         IdentityServerConstants.LocalApi.ScopeName,
                         "roles",
                         "basket_fullpermission",
-                        "discount_fullpermission"
+                        "discount_fullpermission",
+                        "order_fullpermission"
                     },
                     AccessTokenLifetime=1*60*60,
                     RefreshTokenExpiration=TokenExpiration.Absolute,
