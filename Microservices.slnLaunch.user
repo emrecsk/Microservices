@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "IdentityServer_2\\FreeCourse.IdentityServer_2\\FreeCourse.IdentityServer_2.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "Services\\Order\\FreeCourse.Services.Order.API\\FreeCourse.Services.Order.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
