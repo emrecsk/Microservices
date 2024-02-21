@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\10123083\\source\\personal_repos\\Microservices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD279C6A-72AC-4046-A63E-77C50469789B}|Microservices.AppHost\\Microservices.AppHost.csproj|c:\\users\\10123083\\source\\personal_repos\\microservices\\microservices.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD279C6A-72AC-4046-A63E-77C50469789B}|Microservices.AppHost\\Microservices.AppHost.csproj|solutionrelative:microservices.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD279C6A-72AC-4046-A63E-77C50469789B}|Microservices.AppHost\\Microservices.AppHost.csproj|c:\\users\\10123083\\source\\personal_repos\\microservices\\microservices.apphost\\microservices.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD279C6A-72AC-4046-A63E-77C50469789B}|Microservices.AppHost\\Microservices.AppHost.csproj|solutionrelative:microservices.apphost\\microservices.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microservices.AppHost",
+              "DocumentMoniker": "C:\\Users\\10123083\\source\\personal_repos\\Microservices\\Microservices.AppHost\\Microservices.AppHost.csproj",
+              "RelativeDocumentMoniker": "Microservices.AppHost\\Microservices.AppHost.csproj",
+              "ToolTip": "C:\\Users\\10123083\\source\\personal_repos\\Microservices\\Microservices.AppHost\\Microservices.AppHost.csproj",
+              "RelativeToolTip": "Microservices.AppHost\\Microservices.AppHost.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-21T09:17:43.704Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -20,8 +42,17 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\10123083\\source\\personal_repos\\Microservices\\Microservices.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "Microservices.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\10123083\\source\\personal_repos\\Microservices\\Microservices.AppHost\\Program.cs",
+              "RelativeToolTip": "Microservices.AppHost\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:17:46.476Z",
+              "EditorCaption": ""
             }
           ]
         }

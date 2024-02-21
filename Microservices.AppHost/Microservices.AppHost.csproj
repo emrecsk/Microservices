@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.3.24105.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services\Basket\FreeCourse.services.basket\FreeCourse.services.basket.csproj" />
+    <ProjectReference Include="..\Services\Catalog\FreeCourse.Services.Catalog\FreeCourse.Services.Catalog.csproj" />
+    <ProjectReference Include="..\Services\Discount\FreeCourse.Services.Discount\FreeCourse.Services.Discount.csproj" />
+    <ProjectReference Include="..\Services\Order\FreeCourse.Services.Order.API\FreeCourse.Services.Order.API.csproj" />
+    <ProjectReference Include="..\Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj" />
+  </ItemGroup>
+
+</Project>
