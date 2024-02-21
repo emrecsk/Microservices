@@ -1,17 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.1.1" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\FreeCourse.Services.Order.Domain.Core\FreeCourse.Services.Order.Domain.Core.csproj" />
   </ItemGroup>
-
 </Project>
